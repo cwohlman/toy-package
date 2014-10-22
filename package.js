@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'toy-package',
+  name: 'cwohlman:toy-package',
   summary: 'Nothing - just testing',
-  version: '1.0.0',
+  version: '1.0.2',
   git: ''
 });
 
@@ -12,6 +12,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('toy-package');
+  api.use('cwohlman:toy-package');
   api.addFiles('toy-package-tests.js');
 });
