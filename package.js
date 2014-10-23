@@ -1,7 +1,7 @@
 Package.describe({
   name: 'cwohlman:toy-package',
   summary: 'Nothing - just testing',
-  version: "2.1.2",
+  version: "2.1.3",
   git: ''
 });
 
